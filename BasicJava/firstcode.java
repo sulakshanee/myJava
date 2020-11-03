@@ -1,4 +1,4 @@
-class firstCode
+public class FirstCode
 {
 	public static void main(final String[] args) {
 		System.out.print("Hello\n");
@@ -27,9 +27,6 @@ class firstCode
 
 		int j = 5;
 		j = j++;
-		System.out.println(j);
-
-		j = ++j;
 		System.out.println(j);
 	}
 }
