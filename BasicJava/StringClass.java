@@ -1,4 +1,4 @@
-public class JavaString {
+public class StringClass {
     public static void main(String[] args) {
 
         String txt_1 = "Hello World";
@@ -14,6 +14,13 @@ public class JavaString {
 
         // Finding Character
         System.out.println(txt_1.indexOf("orld"));
+
+        // isEmpty
+        System.out.println(txt_1.isEmpty());
+
+        // Trim(Remove white space from both ends)
+        String txt_2 = "   Hello   ";
+        System.out.println(txt_2.trim());
 
         // Concatenation
         String first_name = "Sulakshanee";
