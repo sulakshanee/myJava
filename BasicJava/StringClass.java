@@ -6,6 +6,9 @@ public class StringClass {
         // String length
         System.out.println(txt_1.length());
 
+        // Sub String
+        System.out.println(txt_1.substring(2)); // llo World
+
         // UpperCase
         System.out.println(txt_1.toUpperCase()); // HELLO WORLD
 
@@ -17,6 +20,9 @@ public class StringClass {
 
         // isEmpty
         System.out.println(txt_1.isEmpty());
+
+        // Replace
+        System.out.println(txt_1.replace("H", "Ch"));
 
         // Trim(Remove white space from both ends)
         String txt_2 = "   Hello   ";
@@ -38,6 +44,9 @@ public class StringClass {
 
         int num_3 = 30;
         System.out.println(num_3 + num_1); // 3010
+
+        // Compare to strings
+        System.out.println(num_1.compareTo(num_2));
 
     }
 }
