@@ -18,5 +18,17 @@ public class TypeCasting {
         System.out.println(x); // 120.51
         System.out.println(y); // 120
         System.out.println(z); // 120
+
+        // String to Integer
+        String s = "45";
+
+        System.out.println(Integer.parseInt(s));
+        System.out.println(Integer.valueOf(s));
+
+        // Integer to String
+        int t = 55;
+
+        System.out.println(Integer.toString(t));
+        System.out.println(String.valueOf(t));
     }
 }
